@@ -88,6 +88,7 @@ app.get("/players/:playerId/", async (req, res) => {
   res.send(getPlayer);
 });
 
+
 // Update Player API 4
 app.put("/players/:playerId/", async (req, res) => {
   const { playerId } = req.params;
